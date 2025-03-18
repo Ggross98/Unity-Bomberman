@@ -303,7 +303,7 @@ TextureImporter:
       213: 21300198
     second: destruct_49
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -320,9 +320,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -332,8 +335,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -354,10 +357,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -369,6 +377,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -381,6 +390,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -1665,9 +1701,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      destruct_0: 21300100
+      destruct_1: 21300102
+      destruct_10: 21300120
+      destruct_11: 21300122
+      destruct_12: 21300124
+      destruct_13: 21300126
+      destruct_14: 21300128
+      destruct_15: 21300130
+      destruct_16: 21300132
+      destruct_17: 21300134
+      destruct_18: 21300136
+      destruct_19: 21300138
+      destruct_2: 21300104
+      destruct_20: 21300140
+      destruct_21: 21300142
+      destruct_22: 21300144
+      destruct_23: 21300146
+      destruct_24: 21300148
+      destruct_25: 21300150
+      destruct_26: 21300152
+      destruct_27: 21300154
+      destruct_28: 21300156
+      destruct_29: 21300158
+      destruct_3: 21300106
+      destruct_30: 21300160
+      destruct_31: 21300162
+      destruct_32: 21300164
+      destruct_33: 21300166
+      destruct_34: 21300168
+      destruct_35: 21300170
+      destruct_36: 21300172
+      destruct_37: 21300174
+      destruct_38: 21300176
+      destruct_39: 21300178
+      destruct_4: 21300108
+      destruct_40: 21300180
+      destruct_41: 21300182
+      destruct_42: 21300184
+      destruct_43: 21300186
+      destruct_44: 21300188
+      destruct_45: 21300190
+      destruct_46: 21300192
+      destruct_47: 21300194
+      destruct_48: 21300196
+      destruct_49: 21300198
+      destruct_5: 21300110
+      destruct_6: 21300112
+      destruct_7: 21300114
+      destruct_8: 21300116
+      destruct_9: 21300118
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
